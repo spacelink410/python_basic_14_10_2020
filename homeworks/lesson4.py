@@ -12,7 +12,7 @@ from homeworks import my_func as mf
 # сгенерируем рандомный список. документацию см. в модуле my_func.py
 default_list: list = list(mf.random_range_int(1, 10, 10))
 result_list: list = []
-result_list = list(el for el in default_list if default_list.count(el) == 1 and el not in result_list)
+result_list = list(el for el in default_list if default_list.count(el) == 1)
 
 print(default_list)
 print(result_list)

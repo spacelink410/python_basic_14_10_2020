@@ -226,3 +226,12 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# files output
+files_output/out_task1.txt
+files_output/out_task2.txt
+files_output/out_task3.txt
+files_output/out_task4.txt
+files_output/out_task5.txt
+files_output/out_task6.txt
+files_output/out_task7.txt
+
